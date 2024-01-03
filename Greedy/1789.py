@@ -10,6 +10,7 @@ while s > 0:
   if val > s:
     break
   s -= val
+  print(val)
   val += 1
   ans += 1
 
